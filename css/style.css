@@ -5,7 +5,7 @@ Author: yaminncco
 Colors:
 	Body 		  : #868F9B
 	Headers 	: #10161A
-	Primary 	: #6195FF
+	Primary 	: #D2B48C
 	Dark      : #FCFCFF
 	Grey 		  : #F4F4F4 #FAFAFA #EEE
 
@@ -81,7 +81,7 @@ h5 {
 }
 
 a {
-    color: #6195FF;
+    color: #D2B48C;
     text-decoration: none;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
@@ -91,11 +91,11 @@ a:hover, a:focus {
     text-decoration: none;
     outline: none;
     opacity: 0.8;
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 .main-color {
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 .white-text {
@@ -103,12 +103,12 @@ a:hover, a:focus {
 }
 
 ::-moz-selection {
-    background-color: #6195FF;
+    background-color: #D2B48C;
     color: #FFF;
 }
 
 ::selection {
-    background-color: #6195FF;
+    background-color: #D2B48C;
     color: #FFF;
 }
 
@@ -189,7 +189,7 @@ ul, ol {
   	display:block;
   	height:4px;
   	width:40px;
-  	background-color: #6195FF;
+  	background-color: #D2B48C;
     margin-top: 20px;
 }
 
@@ -210,7 +210,7 @@ ul, ol {
 }
 
 .main-btn {
-    background: #6195FF;
+    background: #D2B48C;
     color: #FFF;
 }
 
@@ -221,8 +221,8 @@ ul, ol {
 
 .outline-btn {
     background: transparent;
-    color: #6195FF !important;
-    border-color: #6195FF;
+    color: #D2B48C !important;
+    border-color: #D2B48C;
 }
 
 .main-btn:hover, .white-btn:hover, .outline-btn:hover {
@@ -315,14 +315,19 @@ ul, ol {
     #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
         color: #fff;
     }
+
+    #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a:hover {
+        color: #D2B48C;
+    }
+
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #6195FF;
+        color: #D2B48C;
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #6195FF;
+        background-color: #D2B48C;
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -351,7 +356,7 @@ ul, ol {
         position: absolute;
         right: -50%;
         top: 0;
-        background-color: #6195FF;
+        background-color: #D2B48C;
         width: 200px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
@@ -439,10 +444,10 @@ ul, ol {
         transition: 0.2s all;
     }
     .main-nav>li.active {
-        border-left: 6px solid #6195FF;
+        border-left: 6px solid #D2B48C;
     }
     .main-nav li a:hover, .main-nav li a:focus {
-        background-color: #6195FF;
+        background-color: #D2B48C;
         color: #FFF;
         opacity: 1;
     }
@@ -608,7 +613,7 @@ header {
 
 .about i {
     font-size: 36px;
-    color: #6195FF;
+    color: #D2B48C;
     margin-bottom: 20px;
 }
 
@@ -712,7 +717,7 @@ header {
     -ms-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
-    color: #6195FF;
+    color: #D2B48C;
     margin-bottom: 5px;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
@@ -741,7 +746,7 @@ header {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: #6195FF;
+    background-color: #D2B48C;
     color: #FFF;
     line-height: 50px;
     text-align: center;
@@ -770,7 +775,7 @@ header {
     left: 20px;
     text-align: center;
     font-size: 32px;
-    color: #6195FF;
+    color: #D2B48C;
     border-radius: 50%;
 }
 
@@ -811,8 +816,8 @@ header {
     float: left;
     padding: 5px;
     border-radius: 50%;
-    color: #6195FF;
-    border: 1px solid #6195FF;
+    color: #D2B48C;
+    border: 1px solid #D2B48C;
     margin-right: 5px;
 }
 
@@ -826,7 +831,7 @@ header {
 }
 
 .number i {
-    color: #6195FF;
+    color: #D2B48C;
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -881,7 +886,7 @@ header {
 }
 
 .pricing:hover .price-title {
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 .pricing .price {
@@ -892,7 +897,7 @@ header {
     text-align: center;
     margin: auto;
     border-radius: 50%;
-    border: 2px solid #6195FF;
+    border: 2px solid #D2B48C;
 }
 
 .pricing .price h3 {
@@ -962,7 +967,7 @@ header {
 
 .testimonial span {
     font-size: 14px;
-    color: #6195FF;
+    color: #D2B48C;
     text-transform: uppercase;
 }
 
@@ -1045,7 +1050,7 @@ header {
 }
 
 .team:hover .team-content span {
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 .team .team-social {
@@ -1062,7 +1067,7 @@ header {
     line-height: 50px;
     width: 50px;
     text-align: center;
-    background-color: #6195FF;
+    background-color: #D2B48C;
     color: #FFF;
 }
 
@@ -1096,7 +1101,7 @@ header {
 }
 
 .blog .blog-meta li i {
-    color: #6195FF;
+    color: #D2B48C;
     margin-right: 5px;
 }
 
@@ -1134,12 +1139,12 @@ header {
 
 .blog-tags a:hover {
   color: #FFF;
-  background-color: #6195FF;
+  background-color: #D2B48C;
 }
 
 .blog-tags a i {
     margin-right: 3px;
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 .blog-tags a:hover i {
@@ -1187,7 +1192,7 @@ header {
     border-radius: 3px;
     margin-left: 5px;
     color: #FFF;
-    background-color: #6195FF;
+    background-color: #D2B48C;
 }
 
 /* -- blog comments -- */
@@ -1240,11 +1245,11 @@ header {
 
 .blog-comments .media.author {
     background-color: #F4F4F4;
-    border-color: #6195FF;
-    border-bottom: 1px solid #6195FF;
+    border-color: #D2B48C;
+    border-bottom: 1px solid #D2B48C;
 }
 .blog-comments .media.author>.media-body>.media-heading {
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 .blog-comments .media.author + .media {
@@ -1302,7 +1307,7 @@ header {
     border: none;
     line-height: 40px;
     background-color: transparent;
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 /* -- category sidebar -- */
@@ -1321,11 +1326,11 @@ header {
 
 .widget-category a span {
     float: right;
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 .widget-category a:hover {
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 /* -- tags sidebar -- */
@@ -1341,7 +1346,7 @@ header {
 
 .widget-tags a:hover {
   color: #FFF;
-  background-color: #6195FF;
+  background-color: #D2B48C;
 }
 
 /* -- posts sidebar -- */
@@ -1364,7 +1369,7 @@ header {
 }
 
 .widget-post a:hover {
-    color: #6195FF;
+    color: #D2B48C;
 }
 
 .widget-post .blog-meta {
@@ -1374,12 +1379,12 @@ header {
 .widget-post .blog-meta li {
     display: inline-block;
     margin-right: 5px;
-    color: #6195FF;
+    color: #D2B48C;
     font-size: 12px;
 }
 
 .widget-post li i {
-    color: #6195FF;
+    color: #D2B48C;
     margin-right: 5px;
 }
 
@@ -1396,7 +1401,7 @@ header {
 
 .contact i {
     font-size: 36px;
-    color: #6195FF;
+    color: #D2B48C;
     margin-bottom: 20px;
 }
 
@@ -1481,15 +1486,15 @@ header {
   
   #contact .form button[type="submit"] {
     background: #FFF;
-    color: #6195FF;
-    border:3px solid #6195FF;
+    color: #D2B48C;
+    border:3px solid #D2B48C;
     padding: 10px 30px;
     transition: 0.4s;
     cursor: pointer;
   }
   
   #contact .form button[type="submit"]:hover {
-    background: #6195FF;
+    background: #D2B48C;
     color: #fff;    
   }
 
@@ -1551,7 +1556,7 @@ header {
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  background-color: #6195FF;
+  background-color: #D2B48C;
   color:#FFF;
 }
 
@@ -1658,10 +1663,10 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #6195FF;
+    background: #D2B48C;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-	  background: #6195FF;
+	  background: #D2B48C;
 	  width:20px;
 }
 
@@ -1683,7 +1688,7 @@ header {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    background: #6195FF;
+    background: #D2B48C;
     color: #FFF;
   	padding: 0px;
   	width: 50px;
@@ -1703,7 +1708,7 @@ header {
 
 .owl-theme .owl-nav [class*='owl-']:hover {
     opacity: 0.8;
-    background: #6195FF;
+    background: #D2B48C;
 }
 
 
@@ -1720,7 +1725,7 @@ header {
   	height: 50px;
   	line-height: 50px;
   	text-align: center;
-  	background: #6195FF;
+  	background: #D2B48C;
   	border-radius:3px;
   	color: #FFF;
   	z-index: 9999;
@@ -1763,7 +1768,7 @@ header {
 }
 .preloader span {
     display: inline-block;
-    background-color: #6195FF;
+    background-color: #D2B48C;
     width: 25px;
     height: 25px;
     -webkit-animation: 1s preload ease-in-out infinite;
