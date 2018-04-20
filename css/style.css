@@ -648,116 +648,155 @@ header {
 	Portfolio
 \*------------------------------------*/
 
-.work {
-    position: relative;
-    padding: 20px;
-}
+  #portfolio .container{
+    min-height: 902px;
+  }
 
-.work>img {
-  width: 100%;
-}
-
-.work .overlay {
-    background: #1C1D21;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    opacity: 0;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-.work:hover .overlay {
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s;
-    opacity: 0.8;
-}
-
-.work .work-content {
-    position: absolute;
-    left: 25px;
-    right: 25px;
-    top: 50%;
+  #portfolio.apartment {
+    padding: 0px 0;
+    margin-top: 0px;
+  }
+  
+  #portfolio #portfolio-flters {
+    padding: 0;
+    margin: 5px 0 35px 0;
+    list-style: none;
     text-align: center;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.work .work-content h3 {
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
-    opacity: 0;
-    color: #FFF;
-    margin-bottom: 10px;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-}
-
-.work:hover .work-content h3 {
-    -webkit-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    transform: translateY(0%);
-    opacity: 1;
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-}
-
-.work .work-content span {
-    display: block;
-    text-transform: uppercase;
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
-    opacity: 0;
-    color: #D2B48C;
-    margin-bottom: 5px;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-.work:hover .work-content span {
-    -webkit-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    transform: translateY(0%);
-    opacity: 1;
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s;
-}
-
-.work .work-link {
-    text-align: center;
-    margin-top: 20px;
-    opacity: 0;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
-}
-
-.work .work-link a {
+  }
+  
+  #portfolio #portfolio-flters li {
+    cursor: pointer;
+    margin: 15px 15px 15px 0;
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-color: #D2B48C;
-    color: #FFF;
-    line-height: 50px;
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #fff;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+    background: #D2B48C;
+    color: #fff;
+  }
+  
+  #portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+  }
+  
+  #portfolio .portfolio-wrap {
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+  }
+  
+  #portfolio .portfolio-wrap:hover {
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+  }
+  
+  #portfolio .portfolio-item {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+  }
+  
+  #portfolio .portfolio-item figure {
+    background: #000;
+    overflow: hidden;
+    height: 240px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+  }
+  
+  #portfolio .portfolio-item figure:hover img {
+    opacity: 0.4;
+    transition: 0.3s;
+  }
+  
+  #portfolio .portfolio-item figure .link-preview, #portfolio .portfolio-item figure .link-details {
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    line-height: 1;
     text-align: center;
-}
-
-.work:hover .work-link {
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.2s linear;
+  }
+  
+  #portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
+    padding-top: 6px;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  #portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
+    background: #D2B48C;
+  }
+  
+  #portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
+    color: #fff;
+  }
+  
+  #portfolio .portfolio-item figure .link-preview {
+    left: calc(50% - 38px);
+    top: calc(50% - 18px);
+  }
+  
+  #portfolio .portfolio-item figure .link-details {
+    right: calc(50% - 38px);
+    top: calc(50% - 18px);
+  }
+  
+  #portfolio .portfolio-item figure:hover .link-preview {
     opacity: 1;
-}
-
+    left: calc(50% - 44px);
+  }
+  
+  #portfolio .portfolio-item figure:hover .link-details {
+    opacity: 1;
+    right: calc(50% - 44px);
+  }
+  
+  #portfolio .portfolio-item .portfolio-info {
+    background: #fff;
+    text-align: center;
+    padding: 30px;
+    height: 90px;
+    border-radius: 0 0 3px 3px;
+  }
+  
+  #portfolio .portfolio-item .portfolio-info h4 {
+    font-size: 18px;
+    line-height: 1px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    padding-bottom: 0;
+  }
+  
+  #portfolio .portfolio-item .portfolio-info h4 a {
+    color: #333;
+  }
+  
+  #portfolio .portfolio-item .portfolio-info h4 a:hover {
+    color: #D2B48C;
+  }
+  
+  #portfolio .portfolio-item .portfolio-info p {
+    padding: 0;
+    margin: 0;
+    color: #b8b8b8;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
 
 /*------------------------------------*\
 	Services
@@ -1424,7 +1463,7 @@ header {
   }
   
   #contact .contact-info a:hover {
-    color: #18d26e;
+    color: #D2B48C;
   }
   
   #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -1445,8 +1484,8 @@ header {
   }
   
   #contact .form #sendmessage {
-    color: #18d26e;
-    border: 1px solid #18d26e;
+    color: #D2B48C;
+    border: 1px solid #D2B48C;
     display: none;
     text-align: center;
     padding: 15px;
@@ -1827,4 +1866,12 @@ header {
     -webkit-transform:scale(0);
             transform:scale(0);
   }
+}
+
+.media-object{
+    max-width:230px;
+    max-height:230px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
 }
